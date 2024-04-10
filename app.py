@@ -10,7 +10,7 @@ import shinyswatch
 from faicons import icon_svg
 
 # Theme
-shinyswatch.theme.darkly()
+shinyswatch.theme.superhero()
 
 # Reactive calculation to filter data based on selected species and islands
 @reactive.calc
@@ -81,7 +81,7 @@ with ui.sidebar(position = "right", open="open"):
 with ui.accordion():
     with ui.accordion_panel("Penguins Dashboard"):
         with ui.layout_columns():
-            with ui.value_box(showcase=icon_svg("snowman"),width="50px", theme="bg-gradient-orange-red"
+            with ui.value_box(showcase=icon_svg("snowman"),width="50px", theme="bg-gradient-green-blue"
                              ):
                 "Number of  Penguins"
                 @render.text
@@ -134,4 +134,3 @@ with ui.layout_columns():
                      'Gentoo': 'green'},
               
             )
-
