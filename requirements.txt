@@ -5,3 +5,4 @@ shiny
 shinylive 
 shinywidgets 
 Palmerpenguins
+seaborn
