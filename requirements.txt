@@ -4,3 +4,4 @@ plotly
 shiny
 shinylive 
 shinywidgets 
+Palmerpenguins
